@@ -1,2 +1,6 @@
-# sudoku-swinger
-Sudoku puzzle solver with basic Swing GUI.
+# Sudoku Swinger
+Sudoku puzzle solver with basic GUI.
+
+**Languages:** Java
+
+**Libraries:** Swing graphics
