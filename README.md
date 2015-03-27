@@ -1,5 +1,5 @@
 # Sudoku Swinger
-Sudoku puzzle solver with basic GUI.
+Sudoku puzzle solver with Swing GUI.
 
 **Languages:** Java
 
