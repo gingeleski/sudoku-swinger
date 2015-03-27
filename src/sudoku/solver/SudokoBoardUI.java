@@ -2,7 +2,7 @@ package sudoku.solver;
 
 public class SudokoBoardUI extends javax.swing.JFrame {
     
-    /** Creates new form Antenna */
+    /** Creates new form Sudoku Swinger - Puzzle Solver */
     public SudokoBoardUI() {
         initComponents();
     }
@@ -100,20 +100,20 @@ public class SudokoBoardUI extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         SudokuSolverLabel = new javax.swing.JLabel();
         PuzzleSolverLabel = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
+        ALabel = new javax.swing.JLabel();
+        BLabel = new javax.swing.JLabel();
+        CLabel = new javax.swing.JLabel();
+        DLabel = new javax.swing.JLabel();
+        ELabel = new javax.swing.JLabel();
+        FLabel = new javax.swing.JLabel();
+        GLabel = new javax.swing.JLabel();
+        HLabel = new javax.swing.JLabel();
+        ILabel = new javax.swing.JLabel();
         SolveButton = new javax.swing.JButton();
         ClearButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Antenna");
+        setTitle("Sudoku Swinger - Puzzle Solver");
 
         CloseButton.setText("Close");
 
@@ -690,23 +690,23 @@ public class SudokoBoardUI extends javax.swing.JFrame {
 
         PuzzleSolverLabel.setText("Puzzle Solver");
 
-        jLabel4.setText("A");
+        ALabel.setText("A");
 
-        jLabel5.setText("B");
+        BLabel.setText("B");
 
-        jLabel6.setText("C");
+        CLabel.setText("C");
 
-        jLabel7.setText("D");
+        DLabel.setText("D");
 
-        jLabel8.setText("E");
+        ELabel.setText("E");
 
-        jLabel9.setText("F");
+        FLabel.setText("F");
 
-        jLabel10.setText("G");
+        GLabel.setText("G");
 
-        jLabel11.setText("H");
+        HLabel.setText("H");
 
-        jLabel12.setText("I");
+        ILabel.setText("I");
 
         SolveButton.setText("SOLVE");
         SolveButton.addActionListener(new java.awt.event.ActionListener() {
@@ -724,15 +724,15 @@ public class SudokoBoardUI extends javax.swing.JFrame {
             .add(layout.createSequentialGroup()
                 .addContainerGap()
                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                    .add(jLabel4)
-                    .add(jLabel5)
-                    .add(jLabel6)
-                    .add(jLabel7)
-                    .add(jLabel8)
-                    .add(jLabel9)
-                    .add(jLabel10)
-                    .add(jLabel11)
-                    .add(jLabel12))
+                    .add(ALabel)
+                    .add(BLabel)
+                    .add(CLabel)
+                    .add(DLabel)
+                    .add(ELabel)
+                    .add(FLabel)
+                    .add(GLabel)
+                    .add(HLabel)
+                    .add(ILabel))
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                     .add(layout.createSequentialGroup()
@@ -873,8 +873,10 @@ public class SudokoBoardUI extends javax.swing.JFrame {
                     .add(layout.createSequentialGroup()
                         .add(22, 22, 22)
                         .add(PuzzleSolverLabel)
-                        .add(13, 13, 13)
+                        .add(18, 18, 18)
                         .add(SolveButton)
+                        .add(13, 13, 13)
+                        .add(ClearButton)
                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .add(CloseButton))
                     .add(layout.createSequentialGroup()
@@ -890,28 +892,28 @@ public class SudokoBoardUI extends javax.swing.JFrame {
                                         .add(38, 38, 38)
                                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                                             .add(BoxB1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(jLabel5))
+                                            .add(BLabel))
                                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                                             .add(BoxC1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(jLabel6))
+                                            .add(CLabel))
                                         .add(26, 26, 26)
                                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                                             .add(BoxD1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(jLabel7))
+                                            .add(DLabel))
                                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                                             .add(BoxE1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(jLabel8))
+                                            .add(ELabel))
                                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                                             .add(BoxF1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(jLabel9)))
+                                            .add(FLabel)))
                                     .add(layout.createSequentialGroup()
                                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                                             .add(BoxA2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                                             .add(BoxA1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(jLabel4))
+                                            .add(ALabel))
                                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                                         .add(BoxB2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
@@ -940,17 +942,17 @@ public class SudokoBoardUI extends javax.swing.JFrame {
                                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                                             .add(BoxG2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                                             .add(BoxG1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(jLabel10))
+                                            .add(GLabel))
                                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                                             .add(BoxH2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                                             .add(BoxH1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(jLabel11))
+                                            .add(HLabel))
                                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                                             .add(BoxI2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                                             .add(BoxI1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(jLabel12)))
+                                            .add(ILabel)))
                                     .add(layout.createSequentialGroup()
                                         .add(BoxG3, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
@@ -1053,9 +1055,7 @@ public class SudokoBoardUI extends javax.swing.JFrame {
                                             .add(BoxF9, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
                                     .add(layout.createSequentialGroup()
                                         .add(38, 38, 38)
-                                        .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
-                                            .add(BoxB9, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                                            .add(ClearButton))))
+                                        .add(BoxB9, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 32, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
                                 .add(27, 27, 27)
                                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                                     .add(layout.createSequentialGroup()
@@ -1447,6 +1447,8 @@ public class SudokoBoardUI extends javax.swing.JFrame {
     }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel ALabel;
+    private javax.swing.JLabel BLabel;
     private javax.swing.JComboBox BoxA1;
     private javax.swing.JComboBox BoxA2;
     private javax.swing.JComboBox BoxA3;
@@ -1528,21 +1530,19 @@ public class SudokoBoardUI extends javax.swing.JFrame {
     private javax.swing.JComboBox BoxI7;
     private javax.swing.JComboBox BoxI8;
     private javax.swing.JComboBox BoxI9;
+    private javax.swing.JLabel CLabel;
     private javax.swing.JButton ClearButton;
     private javax.swing.JButton CloseButton;
+    private javax.swing.JLabel DLabel;
+    private javax.swing.JLabel ELabel;
+    private javax.swing.JLabel FLabel;
+    private javax.swing.JLabel GLabel;
+    private javax.swing.JLabel HLabel;
+    private javax.swing.JLabel ILabel;
     private javax.swing.JLabel PuzzleSolverLabel;
     private javax.swing.JButton SolveButton;
     private javax.swing.JLabel SudokuSolverLabel;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
     
 }
